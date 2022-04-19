@@ -1,0 +1,76 @@
+<?php session_start();?>
+
+
+<?php
+	if (isset($_POST['submit'])) {
+			if ( password_verify($_POST['password'], $result['password'])){
+				$_SESSION['username'] = $result['username'];
+			  $_SESSION['userid'] = $result['username'];
+			  $_SESSION ['loggedin'] = true;
+		} }
+	// }
+
+
+	if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+	?>
+
+
+
+
+    
+	<?php
+	}
+
+	else {
+		?>
+		<h2>Log in</h2>
+
+		<form action="/login/admin" method="POST">
+      <label>Username: </label>
+      <input type="text" name="username" />
+      <label>Password: </label>
+      <input type="password" name="password" />
+      <input type="submit" name="submit" value="Log In" />
+    </form>
+	<?php
+	}
+	?>
+
+
+
+    <?php session_start();?>
+
+
+<?php
+	if (isset($_POST['submit'])) {
+		// if (isset($_SESSION['loggedin']) == false && $_SESSION['loggedin'] == false) {
+		if ($_POST['password'] == 'letmein') {
+			$_SESSION['loggedin'] = true;
+		} }
+	// }
+
+
+	if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+	?>
+
+
+
+
+    
+	<?php
+	}
+
+	else {
+		?>
+		<h2>Log in</h2>
+
+		<form action="/login/admin" method="post" style="padding: 40px">
+
+			<label>Enter Password</label>
+			<input type="password" name="password" />
+
+			<input type="submit" name="submit" value="Log In" />
+		</form>
+	<?php
+	}
+	?>
