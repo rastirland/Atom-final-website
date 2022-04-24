@@ -8,9 +8,9 @@ class kitchenController {
 
     public function about() {
         return [
-			'template' => 'comingsoon.html.php',
-            'option' => 'About',
-			'title' => 'AtomCarSales website About',
+			'template' => 'aboutus.html.php',
+            'option' => 'About gf',
+			'title' => 'AtomCarSales website About!',
             'variables' => [0],
 		];
         
