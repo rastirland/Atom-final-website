@@ -110,11 +110,17 @@ table td input[type="submit"] {margin: 0; float: right; width: auto; padding: au
 
 .current {background-color: #ddd; color: #333 !important; display: block; padding-top: 0.4em; padding-bottom: 0.4em; }
 .current:before {content: ">" }
-.stock > ul .current a {color: #333; p}
+.stock > ul .current a {color: #; p}
 .categories li {margin: 0; padding: 0.5em; font-size: 2em;}
 
 .products > img {max-height: 300px;}
+.sales {
+    width: 650px;
+    padding: 0px;
 
+    border: 5px double #021a40;
+
+}
 a:hover {color: #ccc !important;}
 
 .right {padding: 20px;}

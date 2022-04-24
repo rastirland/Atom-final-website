@@ -6,10 +6,10 @@
             <div class = "details">
                 <h3>£ <?= $dishes['price'] ;?> </h3>
                 <h2>  <?= $dishes['name'];?> </h2>
-                <h2>  <img src="/images/<?= $dishes['auctionItemImage'];?>">  </h2>
-                <h2>  <img src="/images/<?= $dishes['auctionItemImage2'];?>"> </h2>
-                <h2>  <img src="/images/<?= $dishes['auctionItemImage3'];?>"> </h2>
-                <h2>  <img src="/images/<?= $dishes['auctionItemImage4'];?>"> </h2>
+                <h2>  <img class="sales" src="/images/<?= $dishes['auctionItemImage'];?>">  </h2>
+                <h2>  <img class="sales" src="/images/<?= $dishes['auctionItemImage2'];?>"> </h2>
+                <h2>  <img class="sales" src="/images/<?= $dishes['auctionItemImage3'];?>"> </h2>
+                <h2>  <img class="sales" src="/images/<?= $dishes['auctionItemImage4'];?>"> </h2>
 
 
 

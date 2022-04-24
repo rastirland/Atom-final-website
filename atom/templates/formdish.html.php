@@ -2,7 +2,7 @@
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) { ?>
 <h2>Menu</h2>
 
-<a href="/dishes/amenuedit?id=">Add new dish</a>
+<a href="/dishes/amenuedit?id=">Add new Vehicle</a>
 
 
 <table>

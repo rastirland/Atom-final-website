@@ -10,7 +10,7 @@ class kitchenController {
         return [
 			'template' => 'comingsoon.html.php',
             'option' => 'About',
-			'title' => 'kitchen website About',
+			'title' => 'AtomCarSales website About',
             'variables' => [0],
 		];
         
@@ -22,7 +22,7 @@ class kitchenController {
            
             'template' => 'comingsoon.html.php',
             'option' => ' ',
-            'title' => 'kitchen website',
+            'title' => 'AtomCarSales website',
             'variables' => ['kitchen' => $kitchen]
         ];
         }
@@ -32,7 +32,7 @@ class kitchenController {
     return [
         'template' => 'comingsoon.html.php',
         'option' => ' ',
-        'title' => 'kitchen website FAQ',
+        'title' => 'AtomCarSales website FAQ',
         'variables' => [0]
     ];
     }
@@ -46,7 +46,7 @@ class kitchenController {
                return [
                    'template' => 'formcategory.html.php',
                    'option' => 'Categories',
-                   'title' => 'kitchen website Admin',
+                   'title' => 'AtomCarSales website Admin',
                    'variables' => ['kitchen' => $kitchen]
                    ];
                }
@@ -91,7 +91,7 @@ class kitchenController {
            
                     'template' => 'logoutform.html.php',
                     'option' => 'Thanks',
-                    'title' => 'kitchen website',
+                    'title' => 'AtomCarSales website',
                     'variables' => [0]
                 ];
                     }

@@ -47,7 +47,7 @@ public function register() {
      
       'template' => 'registerform.html.php',
       'option' => 'Home',
-      'title' => 'kitchen website',
+      'title' => 'AtomCarSales website',
       'variables' => ['users' => $users]
   ];
 

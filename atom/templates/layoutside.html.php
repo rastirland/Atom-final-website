@@ -20,7 +20,7 @@
 				
 <br>
 <br>
-			<i class="fas fa-envelope fa-2x"></i><font color="#054d95"> Email@hotmail.co.uk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-phone-alt fa-2x"></i> 07777777777</font></p><h2>
+			<i class="fas fa-envelope fa-2x"></i><font color="#054d95"> Luke.Boniface@aol.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-phone-alt fa-2x"></i> 07898 672655</font></p><h2>
 			<br>
                 
 			</aside>
@@ -72,8 +72,8 @@ foreach ($stmt as $row) {
 <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) { ?>
 
 <li><a href="/kitchen/acategories">Admin Categories</a></li>
-<li><a href="/dishes/amenu">Admin Vehicle Selection</a></li>
-<li><a href="/comments/approvecomments">Approve Comments</a></li>
+<li><a href="/dishes/amenu">Admin Vehicle Sale Creation</a></li>
+<li><a href="/comments/approvecomments">Customer Messages</a></li>
 <li><a href="/login/register">Make Admin Accounts</a></li>
 <li><a href="/kitchen/logout">Logout</a></li>
 <?php } ?>

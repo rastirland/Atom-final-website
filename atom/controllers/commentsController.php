@@ -19,8 +19,8 @@ $this->commentTable->insert($_POST['comments']);
 return 
 [  
     'template' => 'commentform.html.php',
-    'option' => 'Dish Review',
-    'title' => 'kitchen website comments',
+    'option' => 'Leave Message',
+    'title' => 'Atom Car Sales Leave Messages',
     'variables' => ['comments' => $comments]
 ];
 
@@ -40,8 +40,8 @@ public function approvecomments() {
 
 return [
     'template' => 'commentlist.html.php',
-    'option' => 'Home',
-    'title' => 'kitchen website Admin',
+    'option' => '',
+    'title' => 'Atom Admin',
     'variables' => ['comments' => $comments]
 
         ];
