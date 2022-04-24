@@ -12,7 +12,7 @@
                 <h2>  <img class="sales" src="/images/<?= $dishes['auctionItemImage4'];?>"> </h2>
 
 
-
+                <br>
                 <br>
                 <br><br>
                 <br><br><br>
